@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiCatalogoJogos", "ApiCatalogoJogos\ApiCatalogoJogos.csproj", "{0390A3EA-52A8-4F3A-B049-6C04D976A6BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCatalogoJogos.Test", "ApiCatalogoJogos.Test\ApiCatalogoJogos.Test.csproj", "{516DED7D-8A56-493A-A6B0-0CAB318814D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0390A3EA-52A8-4F3A-B049-6C04D976A6BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0390A3EA-52A8-4F3A-B049-6C04D976A6BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0390A3EA-52A8-4F3A-B049-6C04D976A6BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0390A3EA-52A8-4F3A-B049-6C04D976A6BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{516DED7D-8A56-493A-A6B0-0CAB318814D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{516DED7D-8A56-493A-A6B0-0CAB318814D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{516DED7D-8A56-493A-A6B0-0CAB318814D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{516DED7D-8A56-493A-A6B0-0CAB318814D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E09A87C3-186F-4FF4-8480-2B747C897B6B}
+	EndGlobalSection
+EndGlobal
