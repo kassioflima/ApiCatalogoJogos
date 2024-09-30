@@ -1,5 +1,6 @@
 using ApiCatalogoJogos.Configurations;
 using ApiCatalogoJogos.Domain.Interfaces.Jogos;
+using ApiCatalogoJogos.Middleware;
 using ApiCatalogoJogos.Repositories;
 using ApiCatalogoJogos.Services.Jogos;
 
@@ -27,6 +28,8 @@ if (app.Environment.IsDevelopment())
         c.HeadContent = "<script>document.title = 'Api Catalogo de Jogos';</script>";
     });
 }
+
+app.UseMiddleware<ExceptionMiddleware>();
 
 app.UseHttpsRedirection();
 
